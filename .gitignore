@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large local expression matrices and partial downloads
+*.h5ad
+*.h5ad.part
+outputs/matrices/
+
+# Runtime outputs are uploaded as GitHub Actions artifacts.
+outputs/
+outputs/expression/
+outputs/final_scores.csv
+outputs/final_scores.json
+outputs/final_scores.md
+outputs/coverage_mapping/
+outputs/tdp_phenotype_matching/
+outputs/string_module_disease_matching/
+outputs/string_tdp_final/
+outputs/*.pid
+outputs/*.log
+
+# Local environment
+.venv/
+venv/
+.env
+config/*.local.json
+config/*.local.csv

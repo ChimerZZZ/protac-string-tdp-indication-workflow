@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "symbol": "REPLACE_WITH_HUMAN_GENE_SYMBOL",
+      "weight": 1.0,
+      "note": "Normalized degradation or pharmacology-derived effect weight from 0 to 1."
+    }
+  ],
+  "exclude_oncology": true
+}

@@ -1,0 +1,42 @@
+{
+  "axes": [
+    "b_cell_receptor_autoantibody",
+    "t_cell_receptor_signaling",
+    "mast_basophil_fceri",
+    "myeloid_tlr_tnf_il6",
+    "type_i_interferon",
+    "th2_cytokine",
+    "il23_il17_tissue_inflammation",
+    "epithelial_barrier_signaling"
+  ],
+  "target_axis_effects": {
+    "REPLACE_WITH_HUMAN_GENE_SYMBOL": {
+      "b_cell_receptor_autoantibody": 0.0,
+      "t_cell_receptor_signaling": 0.0,
+      "mast_basophil_fceri": 0.0,
+      "myeloid_tlr_tnf_il6": 0.0,
+      "type_i_interferon": 0.0,
+      "th2_cytokine": 0.0,
+      "il23_il17_tissue_inflammation": 0.0,
+      "epithelial_barrier_signaling": 0.0
+    }
+  },
+  "disease_profiles": {
+    "REPLACE_WITH_DISEASE_NAME": {
+      "b_cell_receptor_autoantibody": 0.0,
+      "t_cell_receptor_signaling": 0.0,
+      "mast_basophil_fceri": 0.0,
+      "myeloid_tlr_tnf_il6": 0.0,
+      "type_i_interferon": 0.0,
+      "th2_cytokine": 0.0,
+      "il23_il17_tissue_inflammation": 0.0,
+      "epithelial_barrier_signaling": 0.0
+    }
+  },
+  "disease_synonyms": {
+    "REPLACE_WITH_DISEASE_NAME": [
+      "REPLACE_WITH_DISEASE_NAME",
+      "OPTIONAL_ALTERNATIVE_DISEASE_TERM"
+    ]
+  }
+}
