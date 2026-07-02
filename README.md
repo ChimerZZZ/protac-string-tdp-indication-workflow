@@ -6,7 +6,7 @@ The workflow is designed for early-stage translational research, where the key q
 
 > Given a quantitative degrader perturbation profile, which disease modules are most consistent with the predicted proteomic and phenotypic effects of the molecule?
 
-The public README intentionally does **not** disclose project-specific input values, target-level measurements, disease scores, or ranking results. Those should be kept in local configuration and output files.
+The public README intentionally does **not** disclose user-supplied input values, target-level measurements, disease scores, or ranking results. Those should be kept in local configuration and output files.
 
 ## Scope
 
@@ -18,7 +18,7 @@ Targeted protein degradation differs from conventional inhibition because a degr
 - pathway-level immune context,
 - phenotype-level match between the degrader effect and disease biology.
 
-This repository focuses on the workflow itself. It does not ship project-specific input data, result tables, manuscript figures, or proprietary biological conclusions.
+This repository focuses on the workflow itself. It does not ship local input data, result tables, manuscript figures, or proprietary biological conclusions.
 
 ## Model Stack
 
@@ -70,7 +70,7 @@ Example schema:
 }
 ```
 
-Project-specific target identities, assay values, and disease scores should remain in local configuration and output files.
+User-supplied target identities, assay values, and disease scores should remain in local configuration and output files.
 
 Use the files in `config/*.template.json` as schemas only. For a real run, create local files such as:
 
